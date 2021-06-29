@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #000000;
+}
+
+.header{
+        background-color: #878787;
+        margin: 0px;
+        border: 6px solid #000000;
+        text-align: center;
+        height: 18vh;
+        font-size: 200%;
+    }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.P{
+    padding: 0.2%;
+    margin: 0px;
+    border: 6px solid #000000;
+    background-color:#000000;
+    right: auto;
+    text-align: center;
+    color: #ffffff;
+    height: 21.125vh;
+    font-size: 200%;
+
+}
+
+
+.Button{
+    color: black ;
+    background-color:#c0c0c09c;
+    border: 5px solid #000000;
+    right: auto;
+    margin: 0%;
+    width: 100%;
+    height: 8vh;
+    font-size: 200%;
+}
+
+.Form1{
+    border: 8px solid #000000;
+    height: 100vh;
+    width: 100%;
+}
+
+.Zahl1{
+    right: auto;
+    padding: 1%;
+    background-color: #bababa;
+    text-align: center;
+    border: 6px solid #000000;
+    height: 14vh;
+    font-size: 140%;
+}
+
+.Zahl2{
+    right: auto;
+    padding: 1%px;
+    background-color: #bababa;
+    text-align: center;
+    border: 6px solid #000000;
+    height: 14vh;
+    font-size: 140%;
+}
+
+#z1{
+    border: 2px solid #000000;
+    border-radius: 1%;
+    border-style: inset;
+    background-color: #e8e8e8;
+    width: 30%;
+    height: 4vh;
+    font-size: 120%;
+    text-align: center;
+}
+
+#z2{
+    border: 2px solid #000000;
+    border-radius: 1%;
+    border-style: inset;
+    background-color: #e8e8e8;
+    width: 30%;
+    height: 4vh;
+    font-size: 120%;
+    text-align: center;
+}

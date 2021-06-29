@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+    <html lang="de">
+        <head>
+            <title>Online Rechner</title>
+            <link rel="stylesheet" href="Rechner_2.css">
+            <meta http-equiv="refresh" content="2000">
+            <script src="Rechner_3.js" type="text/javascript"></script>
+
+
+           <meta charset="utf-8">
+
+        </head>
+
+        <body>
+            <p>D. Arnold | gerichtet von M. Lemgen</p>
+            <!--Do not change this!!! D. Arnold | repaired by M. Lemgen-->
+            <div class = 'row'>
+
+            <form class="Form1 " action="" metod="get">
+                <div class="header">
+                    <h1 class="Title">Rechner</h1>
+                </div>
+
+                <div>
+
+                    <section class="Zahl1">
+
+                        Erste Zahl eingeben:
+
+                        <br class="Zahlenfeld"><input type="number" min="1" autofocus="on" id="z1" value="1" required="on">
+
+                        <br>
+
+                    </section>
+
+                    <section class="Zahl2">
+
+                        Zweite Zahl eingeben:
+
+                        <br class="Zahlenfeld"><input type="number" min="1" required="on" value="1" id="z2">
+
+                    </section>
+
+                    </div>
+
+                    <div>
+
+                        <!--Add-->
+                        <input class="Button" type="button" value="Addieren" id="buttona" onclick="saveaddNums();">
+
+                        <!--Sub-->
+                        <input class="Button" type="button" value="Subtraktion" id="buttons" onclick="savesubNums();">
+
+                        <!--Mul-->
+                        <input class="Button" type="button" value="Multiplikation" id="buttonm" onclick="savemulNums();">
+
+                        <!--Div-->
+                        <input class="Button" type="button" value="Division" id="buttond" onclick="savedivNums()">
+
+                    </div>
+
+                    <div>
+
+                    <section class="P">
+
+                        <p id="p1">
+
+                        </p>
+
+                        <p id="p2">
+
+                        </p>
+                    </div>
+
+                </form>
+            </div>
+
+            </section>
+
+
+        </body>
+    </html>
